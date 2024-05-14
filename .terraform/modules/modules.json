@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"iam_binding_module","Source":"terraform-google-modules/iam/google//modules/projects_iam","Version":"7.3.0","Dir":".terraform/modules/iam_binding_module/modules/projects_iam"},{"Key":"iam_binding_module.helper","Source":"../helper","Dir":".terraform/modules/iam_binding_module/modules/helper"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"iam_binding_module","Source":"git::https://github.com/terraform-google-modules/terraform-google-iam","Dir":".terraform/modules/iam_binding_module"}]}
