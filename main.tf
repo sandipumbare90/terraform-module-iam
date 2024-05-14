@@ -5,6 +5,7 @@ module "iam_binding_module" {
 
 
   projects = ["devops-engineer-123"]
+
   bindings = {
     "roles/compute.viwer" = ["snumbare123@gmail.com"]
 }
