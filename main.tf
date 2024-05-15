@@ -9,6 +9,7 @@ module "iam_binding_module" {
   projects = ["devops-engineer-123"]
 
   bindings = {
-    "roles/compute.viewer" = ["user:snumbare123@gmail.com"]
+    "roles/compute.viewer" = ["user:snumbare123@gmail.com"],
+    "roles/viewer" = ["user:snumbare123@gmail.com"]
 }
 }
