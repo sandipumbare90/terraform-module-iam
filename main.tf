@@ -10,6 +10,7 @@ module "iam_binding_module" {
 
   bindings = {
     "roles/compute.viewer" = ["user:snumbare123@gmail.com"],
-    "roles/viewer" = ["user:snumbare123@gmail.com"]
+    "roles/viewer" = ["user:snumbare123@gmail.com"],
+    "roles/editor" = ["user:snumbare123@gmail.com"]
 }
 }
